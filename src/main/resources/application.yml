@@ -1,0 +1,23 @@
+spring:
+  http:
+    multipart:
+      max-file-size: 1800mb
+      max-request-size: 1800mb
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/pan
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 18080
+#文件存储路径
+prop:
+  upload-folder: files/
+
+#设置最大上传大小为10Mb
+
+
