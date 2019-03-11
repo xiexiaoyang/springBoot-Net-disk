@@ -6,5 +6,6 @@
 - IDEA 导入项目
 
 - pan.sql 数据库信息
-- target/存在打包好的项目 pan-x.x.x-SNAPSHOT.jar 
--  运行java -jar pan-0.0.1-SNAPSHOT.jar
+- /存在打包好的项目 pan-x.x.x-SNAPSHOT.jar 
+-  运行java -jar pan-0.0.1-SNAPSHOT.jar 启动项目
+
