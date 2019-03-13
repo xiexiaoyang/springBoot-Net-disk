@@ -3,6 +3,10 @@ spring:
     multipart:
       max-file-size: 1800mb
       max-request-size: 1800mb
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/pan
@@ -12,8 +16,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  messages:
+    encoding: UTF-8
 server:
   port: 18080
+  tomcat:
+    uri-encoding: utf-8
 #文件存储路径
 prop:
   upload-folder: files/
